@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(228, 208, 184);
+}
+.calculatorBody {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 500px;
+}
+
+table {
+  background-color: white;
+  box-shadow: black;
+  border: 2px solid;
+}
+
+td {
+  text-align: center;
+  border: 2px black solid;
+}
+input[type="button"] {
+  width: 90px;
+  height: 80px;
+  color: white;
+  background-color: black;
+  font-size: 2rem;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+input[type="button"]:hover {
+  background-color: aqua;
+  outline: none;
+}
+#myResult {
+  width: 373.76px;
+  height: 120px;
+  font-size: 70px;
+  text-align: right;
+  pointer-events: none;
+}
+#c {
+  background-color: rgb(187, 104, 1);
+  padding: 2px;
+}
+#eql {
+  background-color: rgb(124, 14, 14);
+}
